@@ -1,0 +1,116 @@
+
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+.navbar {
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+background-color: white;
+} 
+.navbar .container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+.navbar-menu li {
+display: inline-block;
+} 
+
+.navbar-menu li a {
+display: inline-block;
+color: black;
+opacity: 0.6;
+text-decoration: none;
+padding: 23px;
+transition: all .07s ease-in-out;
+} 
+
+.navbar-wrap {
+display: flex;
+flex-flow: row nowrap;
+} 
+
+.navbar-brand {
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: black;
+margin-right :400px;
+} 
+
+.navbar-menu li a:hover {
+opacity: 1;
+background-color: darkred;
+border-radius:100px;
+color: white;
+transition: all .07s ease-in-out;
+} 
+
+.navbar-brand:hover{
+color: darkred;
+transition: all .07s ease-in-out;
+} 
+.dobro {
+	text-align: center;
+   
+}
+
+.posled {
+	text-align: center;
+	text-decoration-line: underline;
+	
+   
+}
+
+.rezul {
+	margin-left: 210px;
+	font-size: 100px;
+	text-decoration: underline;
+
+
+}
+
+.foto1{
+	margin-left: 150px;
+	display: block;
+}
+
+.foto2{
+	margin-right: 150px;
+}
+.sled {
+	text-align: center;
+	text-decoration-line: underline;
+	margin-top: 150px;
+	margin-right: 5px;
+	
+   
+}
+
+.foto3{
+	margin-left: 150px;
+	display: block;
+}
+
+.rezul2 {
+	margin-left: 265px;
+	font-size: 100px;
+	
+
+
+}
+.foto4{
+	margin-right: 118px;
+}
+

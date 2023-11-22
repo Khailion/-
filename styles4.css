@@ -1,0 +1,138 @@
+
+body {
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000;
+  min-width: 320px;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.navbar {
+width: 100%;
+height: 70px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 1.0);
+background-color: white;
+} 
+.navbar .container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+} 
+
+.navbar-menu li {
+display: inline-block;
+} 
+
+.navbar-menu li a {
+display: inline-block;
+color: black;
+opacity: 0.6;
+text-decoration: none;
+padding: 23px;
+transition: all .07s ease-in-out;
+} 
+
+.navbar-wrap {
+display: flex;
+flex-flow: row nowrap;
+} 
+
+.navbar-brand {
+font-weight: 700;
+font-size: 26px;
+text-decoration: none;
+color: black;
+margin-right :400px;
+} 
+
+.navbar-menu li a:hover {
+opacity: 1;
+background-color: darkred;
+border-radius:100px;
+color: white;
+transition: all .07s ease-in-out;
+} 
+
+.navbar-brand:hover{
+color: darkred;
+transition: all .07s ease-in-out;
+} 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+body._locked {
+  overflow: hidden;
+}
+
+.modal__btn {
+  border: none;
+  background-color: #f36262;
+  padding: 5px 10px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+._modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  pointer-events: none;
+}
+
+._modal._active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+.modal-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+.modal-body {
+  padding: 24px;
+  background-color: #fff;
+  width: 700px;
+  margin: auto;
+  max-height: 90%;
+  overflow: auto;
+  border-radius: 16px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
